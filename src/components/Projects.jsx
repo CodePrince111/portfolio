@@ -6,28 +6,22 @@ const projects = [
     title: 'AI-Powered Payment Reconciliation',
     description:
       'Real-time financial transaction system built with .NET 7, AWS Lambda, and DynamoDB. Processes multi-currency payment flows and fraud detection.',
-    image: '/projects/payment.jpg',
+    image: 'https://plus.unsplash.com/premium_photo-1728735030984-fef628ee1929',
     tags: ['.NET 7', 'AWS', 'Lambda', 'DynamoDB'],
-    github: 'https://github.com/your-project',
-    demo: 'https://your-demo-link.com',
   },
   {
     title: 'Healthcare Patient Portal',
     description:
       'HIPAA-compliant web portal for secure patient record access. React frontend, Azure Functions backend, integrated with SQL Server + B2C auth.',
-    image: '/projects/health.jpg',
+    image: 'https://plus.unsplash.com/premium_photo-1682130171029-49261a5ba80a',
     tags: ['React', 'Azure', 'SQL Server'],
-    github: '',
-    demo: 'https://portal-demo.com',
   },
   {
     title: '3D Dev Portfolio',
     description:
       'Interactive developer portfolio using Three.js, React, Tailwind, and Framer Motion. Full SPA with AI-styled animations.',
-    image: '/projects/portfolio.jpg',
+    image: 'https://images.unsplash.com/photo-1499951360447-b19be8fe80f5',
     tags: ['Three.js', 'Tailwind', 'Framer Motion'],
-    github: 'https://github.com/jakarin/portfolio',
-    demo: 'https://jakarin.dev',
   },
 ]
 
