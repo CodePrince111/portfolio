@@ -35,7 +35,7 @@ export default function Hero() {
             visible: { opacity: 1, y: 0 },
           }}
         >
-          Hi, I'm Jakarin Srimakut
+          Hi, I'm Joshua Mark Stromme
         </motion.h1>
 
         <motion.p
