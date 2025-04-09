@@ -21,7 +21,7 @@ export default function Contact() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          &gt; Transmitting Secure Message to Jakarin.AI...
+          &gt; Transmitting Secure Message to Joshua...
         </motion.h2>
 
         <p className="text-gray-400 mb-10">
