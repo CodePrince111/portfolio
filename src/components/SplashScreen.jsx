@@ -4,7 +4,7 @@ import Fingerprint3D from './Fingerprint3D'
 import ConfirmParticles from './ConfirmParticles'
 import MatrixRain from './MatrixRain'
 
-const targetText = 'JACK.S'
+const targetText = 'JOSHUA MARK STROMME'
 
 export default function SplashScreen({ onFinish }) {
     const [displayText, setDisplayText] = useState('')
