@@ -118,7 +118,7 @@ export default function Contact() {
         {/* 🔗 Social Icons */}
         <div className="flex justify-center gap-6 mt-12 text-green-400 text-2xl">
           <a
-            href="mailto:jakarin@pm.me"
+            href="mailto:joshua.m.stromme@gmail.com"
             className="hover:text-white transition"
             target="_blank"
             rel="noopener noreferrer"
@@ -126,7 +126,7 @@ export default function Contact() {
             <FaEnvelope />
           </a>
           <a
-            href="https://github.com/jakarin"
+            href="https://github.com/CODEMAX666"
             className="hover:text-white transition"
             target="_blank"
             rel="noopener noreferrer"
@@ -134,7 +134,7 @@ export default function Contact() {
             <FaGithub />
           </a>
           <a
-            href="https://linkedin.com/in/jakarin"
+            href="https://https://www.linkedin.com/in/joshua-stromme-4a2b41347/"
             className="hover:text-white transition"
             target="_blank"
             rel="noopener noreferrer"

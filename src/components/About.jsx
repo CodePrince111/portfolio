@@ -16,23 +16,33 @@ import {
 import { useEffect, useState } from 'react'
 
 const skills = [
-    { icon: <SiDotnet />, label: 'ASP.NET / .NET' },
-    { icon: <FaReact />, label: 'React.js' },
-    { icon: <FaNodeJs />, label: 'Node.js' },
-    { icon: <SiKubernetes />, label: 'Kubernetes' },
+    { icon: <SiDotnet />, label: '.NET Core / C#' },
+    { icon: <SiDotnet className="rotate-45" />, label: 'ASP.NET Core' },
+    { icon: <FaDatabase />, label: 'SQL Server' },
+    { icon: <FaDatabase className="-rotate-45" />, label: 'NoSQL Databases' },
+    { icon: <FaAws />, label: 'AWS Cloud' },
     { icon: <FaDocker />, label: 'Docker' },
-    { icon: <FaAws />, label: 'AWS' },
-    { icon: <FaDatabase />, label: 'SQL / NoSQL' },
+    { icon: <SiKubernetes />, label: 'Kubernetes' },
     { icon: <FaGitAlt />, label: 'Git' },
+    { icon: <FaReact className="animate-spin-slow" />, label: 'React.js' },
+    { icon: <FaNodeJs />, label: 'Node.js' },
     { icon: <SiTailwindcss />, label: 'Tailwind CSS' },
+    { icon: <FaGitAlt className="rotate-90" />, label: 'CI/CD' },
+    { icon: <SiKubernetes className="rotate-180" />, label: 'Cloud Native' },
+    { icon: <FaAws className="scale-x-[-1]" />, label: 'Infrastructure' },
+    { icon: <FaDocker className="rotate-45" />, label: 'Containerization' }
 ]
 
 // 💬 Typing bio text line by line
 const bioLines = [
-    "I'm a passionate .NET Full-Stack Engineer.",
-    'Over 10 years of experience in secure, scalable cloud-native systems.',
-    'Fluent in ASP.NET Core, React, Kubernetes, and AWS.',
-    'I ship high-performance code — fast, clean, and production-ready.',
+    "I'm a dedicated .NET Full-Stack Engineer with a passion for clean code.",
+    'With over 10 years of experience crafting secure, scalable cloud-native systems.',
+    'Expert in ASP.NET Core, React, Node.js, and cloud technologies.',
+    'Proficient in containerization with Docker and Kubernetes orchestration.',
+    'Extensive experience with AWS cloud services and infrastructure.',
+    'Strong background in both SQL and NoSQL database architectures.',
+    'Committed to delivering high-performance, production-ready solutions.',
+    'Advocate for modern development practices using Git and CI/CD.',
 ]
 
 export default function About() {

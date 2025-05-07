@@ -23,6 +23,61 @@ const projects = [
     image: 'https://images.unsplash.com/photo-1499951360447-b19be8fe80f5',
     tags: ['Three.js', 'Tailwind', 'Framer Motion'],
   },
+  {
+    title: 'Enterprise Order Management System',
+    description: 'High-scale microservices architecture handling millions of orders daily. Built with .NET Core, Event Sourcing, and Kubernetes.',
+    image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40',
+    tags: ['.NET Core', 'Microservices', 'Kubernetes', 'Event Sourcing'],
+    github: 'https://github.com/yourusername/order-management',
+  },
+  {
+    title: 'Tax Calculation Engine',
+    description: 'Real-time tax computation engine processing complex tax scenarios across multiple jurisdictions using .NET 6 and Redis.',
+    image: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c',
+    tags: ['.NET 6', 'Redis', 'REST API', 'Microservices'],
+  },
+  {
+    title: 'Inventory Management Platform',
+    description: 'Real-time inventory tracking system with predictive analytics. Uses SignalR for live updates and ML.NET for demand forecasting.',
+    image: 'https://images.unsplash.com/photo-1553877522-43269d4ea984',
+    tags: ['.NET', 'SignalR', 'ML.NET', 'Azure'],
+  },
+  {
+    title: 'E-commerce Analytics Dashboard',
+    description: 'Real-time analytics platform built with Blazor WebAssembly and gRPC, processing millions of data points for business insights.',
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f',
+    tags: ['Blazor', 'gRPC', 'WebAssembly', 'Charts.js'],
+  },
+  {
+    title: 'Athletic Performance Tracker',
+    description: 'Athlete monitoring system using .NET MAUI for cross-platform mobile apps with real-time sensor data integration.',
+    image: 'https://images.unsplash.com/photo-1461896836934-ffe607ba8211',
+    tags: ['.NET MAUI', 'Xamarin', 'Azure', 'IoT'],
+  },
+  {
+    title: 'Supply Chain Optimization Tool',
+    description: 'ML-powered supply chain optimization using Azure Functions and Power BI for predictive analytics and reporting.',
+    image: 'https://images.unsplash.com/photo-1494961104209-3c223057bd26',
+    tags: ['Azure Functions', 'Power BI', 'ML.NET', 'React'],
+  },
+  {
+    title: 'Financial Reporting System',
+    description: 'Enterprise-grade financial reporting platform with .NET Core backend and Angular frontend, supporting multiple accounting standards.',
+    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71',
+    tags: ['.NET Core', 'Angular', 'SQL Server', 'RabbitMQ'],
+  },
+  {
+    title: 'Cloud-Native POS System',
+    description: 'Microservices-based point of sale system using .NET 7, containers, and event-driven architecture for high availability.',
+    image: 'https://images.unsplash.com/photo-1556742393-d75f468bfcb0',
+    tags: ['.NET 7', 'Docker', 'Kafka', 'MongoDB'],
+  },
+  {
+    title: 'Automated Testing Framework',
+    description: 'Enterprise testing framework with .NET Core, Selenium, and Azure DevOps for continuous testing and quality assurance.',
+    image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97',
+    tags: ['.NET Core', 'Selenium', 'Azure DevOps', 'xUnit'],
+  },
 ]
 
 export default function Projects() {
